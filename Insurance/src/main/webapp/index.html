@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="form-container">
+		<h1>Login</h1>
+		<form action="MyServer" method="get" class="login-form">
+			<table>
+				<tr>
+					<td><label for="MobileNo">MobileNo:</label></td>
+					<td><input type="tel" id="MobileNo" name="MobileNo"
+						placeholder="Enter your MobileNo" required></td>
+				</tr>
+
+				<tr>
+					<td><label for="password">Password:</label></td>
+					<td><input type="password" id="pass" name="pass"
+						placeholder="Enter your password" required></td>
+				</tr>
+
+				<tr>
+					<td colspan="2">
+						<input type="submit" value="Login" class="btn">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align:center;">
+						<a href="Register.html" class="register-link">New Register</a>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

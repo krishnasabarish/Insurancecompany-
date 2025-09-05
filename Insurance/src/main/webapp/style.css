@@ -1,0 +1,170 @@
+/* Login */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+/* Common form container */
+.form-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+
+  border: 2px solid #4a90e2;
+}
+
+/* Title */
+.form-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table layout */
+.login-form table,
+.register-form table {
+  width: 100%;
+}
+
+.login-form label,
+.register-form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.login-form input,
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.login-form input:focus,
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #4a90e2;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transi
+
+
+/* Register link */
+.register-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.register-link:hover {
+  color: #1d5a99;
+}
+
+/* Register */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+/* Common form container */
+.form-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table layout */
+.register-form table {
+  width: 100%;
+}
+
+.register-form label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #4a90e2;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #4a90e2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #357ab8;
+}
+}
